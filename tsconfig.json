@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "esModuleInterop": true,
+    "target": "es6",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "outDir": "dist",
+    "strict": true,
+    "allowJs": true,
+    "checkJs": false,
+    "baseUrl": "src",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "useUnknownInCatchVariables": false,
+    "strictNullChecks": true,
+    "resolveJsonModule":true,
+    "paths": {
+      "@root/*": ["./*"],
+      "@middlewares/*": ["middlewares/*"],
+      "@models/*": ["models/*"],
+      "@repositories/*": ["repositories/*"],
+      "@routes/*": ["routes/*"],
+      "@services/*": ["services/*"],
+      "@utils/*": ["utils/*"],
+    }
+  },
+  "lib": ["es2015"],
+
+  "include": ["src/**/*.ts", "src/__mocks__/jwtkClient.ts"],
+  "exclude": ["node_modules", "dist"]
+}
