@@ -15,7 +15,7 @@
     "experimentalDecorators": true,
     "useUnknownInCatchVariables": false,
     "strictNullChecks": true,
-    "resolveJsonModule":true,
+    "resolveJsonModule": true,
     "paths": {
       "@root/*": ["./*"],
       "@middlewares/*": ["middlewares/*"],
@@ -24,6 +24,7 @@
       "@routes/*": ["routes/*"],
       "@services/*": ["services/*"],
       "@utils/*": ["utils/*"],
+      "@controllers/*": ["controllers/*"]
     }
   },
   "lib": ["es2015"],
