@@ -4,6 +4,7 @@ import express from 'express';
 import morgan from 'morgan';
 import helmet from 'helmet';
 import patientUserRouter from '@routes/UserPatient';
+import asd from '@'
 
 dotenv.config();
 

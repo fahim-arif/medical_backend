@@ -12,7 +12,9 @@ const getPatientAccounts = async (
     const options = req.query;
     const patientUsers = await getPatients(options);
     res.status(200).json(patientUsers);
-  } catch (error) {}
+  } catch (error) {
+    console.log(error)
+  }
 };
 
 router.get('/', getPatientAccounts);
